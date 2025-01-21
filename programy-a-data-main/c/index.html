@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovladače, firmware a utility</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+ <div class="navbar">
+     <link rel="stylesheet" href="../css/styly.css">
+</head>
+<style>
+    h1, h2, h3 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        color: rgb(255, 255, 255);
+        font-size: 250%;
+        text-align: center;
+    }
+    h2 {
+        background-color: blue;
+        color:azure;
+        padding: 20px 0 10px 100px;
+        border-left: 20px solid rgb(14, 185, 173);
+    }
+    p {
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    a:hover {
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <header>
+        <h1>Ovladače, firmware a utility</h1>
+    </header>
+    <nav class="topnav">
+        <a href="../index.html">Úvodní stránka</a>
+        <div class="subnav">
+            <button class="subnavbtn">Programové a datové soubory <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+        <a href="../a/index.html#soubory-a-adresare">Soubory a adresáře</a>
+        <a href="../a/index.html#programove-soubory">Programové soubory</a>
+        <a href="../a/index.html#systemove-soubory">Systémové soubory</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Operační systémy <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="../b/index.html#programove-vybaveni">Programové vybavení</a>
+                <a href="../b/index.html#rozhrani">Rozhraní</a>
+                <a href="../b/index.html#rozdeleni-operacnich-systemu">Rozdělení operačních systémů</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Ovladače, firmware a utility <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#ovladace-zarizeni">Ovladače a zařízení</a>
+                <a href="#firmware">Firmware</a>
+                <a href="#utility">Utility</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Aplikační software <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="../d/index.html#aplikace?">Co to jsou aplikace?</a>
+            <a href="../d/index.html#skupiny-aplikaci">Základní skupiny aplikací</a>
+        </div>
+        </div>
+
+        <div class="subnav">
+            <button class="subnavbtn">Software a autorský zákon <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="../e/index.html#autorsky-zakon">Autorský zákon</a>
+            <a href="../e/index.html#kontrola-legalnosti">Kontrola legálnosti</a>
+            <a href="../e/index.html#ochrana-programu">Ochrana programů</a>
+        </div>
+        </div>
+
+        <div class="subnav">
+            <button class="subnavbtn">Instalace programů <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="../f/index.html#instalace-a-odinstalace">Instalace a odinstalace programů</a>
+            <a href="../f/index.html#lokalizace-platforma-kompatibilita">Lokalizace, platforma a kompatibilita</a>
+            <a href="../f/index.html#verze-registrace">Verze a registrace programů</a>
+        </div>
+        </div>
+
+            </nav>
+   
+    <main>
+        <h2 id="ovladace-zarizeni">Ovladače zařízení</h2>
+            <p>K systémovému software můžeme kromě operačních systémů zařadit
+            ovladače hardarových zařízení, firmware a aspoň zčásti i tzv. utility</p>
+            <p>Ovladače zařízení (device drivers). Speciální programy, které zajišťují komunikaci OS s 
+            určitým technickým vybavením. Bez potřebného ovladače nemůže
+            zařízení správně fungovat. Standardní ovladače pro běžná zařízení, jakými
+            jsou flash disk, myš, klávesnice nebo digitální fotoaparáty, bývají součástí
+            moderních OS. Instalaci zařízení ve Windows usnadňuje standard Plug and
+            Play (PnP - „připoj a hrej“), který zajistí automatickou detekci nově připojeného hardware 
+            a případně i automatické vyhledání potřebného ovladače. Není-li
+            driver nalezen přímo v OS, musí být použit externí instalátor ovladače z disku dodaného se 
+            zařízením (např. z instalačního CD k tiskárně), nebo stažený
+            z internetových stránek, nejlépe přímo od výrobce. Nevhodně zvolený ovladač
+            může v krajním případě způsobit nefunkčnost zařízení, někdy i celého OS.</p>
+        <h2 id="firmware">Firmware</h2>
+            <p>Programové vybavení, které slouží pro řízení nějakého vestavěného systému (embedded 
+            system). Firmware řídí například kalkulačky, počítačové komponenty (pevný disk, router…), 
+            mobilní telefon, digitální fotoaparát atd. Dříve byla aktualizace firmwaru realizována 
+            nahrazením paměťového média obsahujícího firmware (např. výměna ROM paměti), dnes může 
+            být novější verze firmware přepsána díky používaným flash pamětem. Základním firmwarem
+            v počítači je BIOS (Basic Output-Input System), který zajišťuje především start
+            počítače a umožňuje konfiguraci základní desky i připojeného hardware.</p>
+            <figure>
+                <img src="../img/firmware.jpg" alt="Firmware" width="350">
+                <figcaption>Firmware</figcaption>
+            </figure>     
+        <h2 id="utility">Utility</h2>
+            <p>Jsou menší pomocné programy, které umožňují vykonávat servisní
+            operace potřebné k fungování počítače. Patří k nim komprimační programy,
+            diagnostické a testovací programy, utility pro kontrolu a optimalizaci operačního systému, různé konverzní (převodní) programy, které umí přehledně zobrazit obrázky, převést je z jednoho formátu na jiný atd. Řada utilit je integrální
+            součástí OS. Příkladem může být Správce úloh ve Windows (Task Manager),
+            který umožňuje nejen správu spuštěných programů a služeb, ale i sledování
+            využití systémových zdrojů (procesoru, paměti). Dalšími užitečnými utilitami
+            jsou nástroje pro defragmentaci (defrag) nebo kontrolu disku (chkdsk). Některé
+            utility lze spouštět z příkazového řádku (ping, ipconfig apod.)</p>
+            <figure>
+                <img src="../img/prikaz.jpg" alt="prikaz" width="350">
+                <img src="../img/prikaz2.jpg" alt="prikaz" width="390">
+                <figcaption>Příklad příkazu ipconfig a ping</figcaption>
+            </figure>     
+   </main>
+   <footer>
+    <hr>
+    <p><b>&copy; 2024 - Dominik Valigura, <i>IT1</i></b></p>
+    <p><a href="https://www.sspu-opava.cz" target="_blank">
+        <img src="../img/skola-logo.png" alt="Školní logo"></a></p>
+</footer>
+</body>
+   
+</html>
