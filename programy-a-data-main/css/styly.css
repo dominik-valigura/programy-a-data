@@ -6,38 +6,42 @@ body{
 }
 main{
     background-color: rgb(255, 255, 255);
+    border: black 6px solid;
     max-width: 1200px;
     margin: 0px auto;
     padding: 20px;
 }
-h1 {
-    background-color: rgb(19, 19, 85);
-    padding: 15px;
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    color: rgb(221, 30, 30);
-    font-size: 250%;
-    text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  text-align: center;
+  background-color: rgb(19, 19, 85);
+  padding: 15px;
+
 }
 h2 {
-    background-color: blue;
-    color:azure;
-    padding: 20px 0 10px 100px;
-    border-left: 20px solid rgb(14, 185, 173);
+  background-color: rgb(210, 11, 11);
+  color:azure;
+  padding: 20px 0 10px 100px;
+  border: 6px solid rgb(240, 143, 25);
 }
 h3 {
-    text-decoration: underline;
-    text-decoration-style: dashed;
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
 p {
-    text-align: justify;
-    margin-top: 20px;
+  text-align: justify;
+  margin-top: 20px;
 }
 
 a:hover {
-    background-color: blue;
-    color: white;
-    text-decoration: none;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
 }
 .topnav {
     background-color: #340808;
