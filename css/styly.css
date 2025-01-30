@@ -29,10 +29,6 @@ h2 {
   padding: 20px 0 10px 100px;
   border: 6px solid rgb(240, 143, 25);
 }
-h3 {
-  text-decoration: underline;
-  text-decoration-style: dashed;
-}
 p {
   text-align: justify;
   margin-top: 20px;
